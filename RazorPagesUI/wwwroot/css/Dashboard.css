@@ -1,0 +1,112 @@
+﻿* {
+    margin: 0
+}
+
+body {
+    background-color: rgb(211, 210, 210);
+}
+
+.dashboard-body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+    .dashboard-body #navbar-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 100%;
+        height: fit-content;
+        background-color: white;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+        z-index: 5;
+    }
+
+        .dashboard-body #navbar-container #personal-settings-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+            .dashboard-body #navbar-container #personal-settings-container p {
+                font-weight: normal;
+                margin: 15px;
+                padding-right: 90px;
+                cursor: pointer;
+            }
+
+    .dashboard-body #logo img {
+        width: 9vw;
+        height: auto;
+        padding-top: 10px;
+        padding-left: 15px;
+        cursor: pointer;
+    }
+
+    .dashboard-body #body-container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+        .dashboard-body #body-container #sidebar-container {
+            width: 10%;
+            height: 100%;
+            padding: 15px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.15);
+        }
+
+    .dashboard-body h1 {
+        font-family: Arial;
+        color: black;
+        margin-top: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .dashboard-body h2 {
+        font-weight: normal;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+
+    .dashboard-body #body-container #main-body-container {
+        width: 100%;
+        height: 100%;
+    }
+
+        .dashboard-body #body-container #main-body-container #data-blocks {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+    .dashboard-body #block {
+        background-color: white;
+        width: 30vw;
+        height: 30vh;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        transition: width 0.15s, height 0.15s;
+        cursor: pointer;
+    }
+
+        .dashboard-body #block:hover {
+            width: 31vw;
+            height: 31vh;
+        }

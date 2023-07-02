@@ -24,4 +24,8 @@
 		<Folder Include="wwwroot\assets\" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Include="wwwroot\css\Login.css" />
+	</ItemGroup>
+
 </Project>
