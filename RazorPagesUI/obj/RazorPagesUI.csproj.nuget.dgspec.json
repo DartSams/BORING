@@ -1,32 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\godof\\source\\repos\\RazorPagesUI\\RazorPagesUI\\RazorPagesUI.csproj": {}
+    "C:\\Users\\godof\\Desktop\\VSCodeProjects\\Teacher Assistant\\bozo project\\BORING\\RazorPagesUI\\RazorPagesUI\\RazorPagesUI\\RazorPagesUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\godof\\source\\repos\\RazorPagesUI\\RazorPagesUI\\RazorPagesUI.csproj": {
+    "C:\\Users\\godof\\Desktop\\VSCodeProjects\\Teacher Assistant\\bozo project\\BORING\\RazorPagesUI\\RazorPagesUI\\RazorPagesUI\\RazorPagesUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\godof\\source\\repos\\RazorPagesUI\\RazorPagesUI\\RazorPagesUI.csproj",
+        "projectUniqueName": "C:\\Users\\godof\\Desktop\\VSCodeProjects\\Teacher Assistant\\bozo project\\BORING\\RazorPagesUI\\RazorPagesUI\\RazorPagesUI\\RazorPagesUI.csproj",
         "projectName": "RazorPagesUI",
-        "projectPath": "C:\\Users\\godof\\source\\repos\\RazorPagesUI\\RazorPagesUI\\RazorPagesUI.csproj",
+        "projectPath": "C:\\Users\\godof\\Desktop\\VSCodeProjects\\Teacher Assistant\\bozo project\\BORING\\RazorPagesUI\\RazorPagesUI\\RazorPagesUI\\RazorPagesUI.csproj",
         "packagesPath": "C:\\Users\\godof\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\godof\\source\\repos\\RazorPagesUI\\RazorPagesUI\\obj\\",
+        "outputPath": "C:\\Users\\godof\\Desktop\\VSCodeProjects\\Teacher Assistant\\bozo project\\BORING\\RazorPagesUI\\RazorPagesUI\\RazorPagesUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\godof\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +38,30 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

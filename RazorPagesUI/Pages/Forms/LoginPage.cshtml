@@ -4,30 +4,29 @@
     ViewData["Title"] = "Login";
 }
 
-<div id="logo">
-    <img src="IMG-8050.png" alt="">
-</div>
 <div id="main-container">
     <div id="block">
-        <form method="POST">
+        <form action="" method="post">
             <div id="header-container">
+                <div id="logo">
+                    <img src="~/assets/IMG-8050.png" alt="">
+                </div>
                 <h1>Login</h1>
             </div>
             <div id="body-container">
-                <input type="text" asp-for="Login.Email" placeholder="Email">
-                <input type="password" placeholder="Password">
+                <input type="text" placeholder="Email" asp-for="Login.Email">
+                <input type="password" placeholder="Password" asp-for="Login.Password">
                 <div id="sub-body-container">
                     <a href="">Forgot Password?</a>
                 </div>
             </div>
             <div id="footer-container">
-                <button type="submit">Login</button>
+                <button>Login</button>
             </div>
             <div id="create-account">
-                <h3>New User?</h3>
-                <a asp-page="/Forms/RegisterPage">Create an account</a>
-             </div>
+                <p>New User?</p>
+                <a href="register.html" >Create an account</a>
+            </div>
         </form>
-        
     </div>
 </div>

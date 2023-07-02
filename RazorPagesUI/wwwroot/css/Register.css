@@ -11,7 +11,7 @@ a {
 }
 
 #seperator {
-    width: 90%;
+    width: 100%;
     height: 1px;
     background-color: rgb(148, 148, 148);
     margin-top: 3vh;
@@ -27,9 +27,9 @@ a {
 }
 
 #card-container {
-    width: 45dvw;
-    height: fit-content;
-    padding: 15px;
+    width: 60vw;
+    height: 90dvh;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -39,64 +39,51 @@ a {
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15);
 }
 
-    #card-container h1 {
-        font-family: Arial;
-        font-weight: bold;
-        margin-bottom: 30px;
-        margin-top: 20px;
-    }
-
-    #card-container #input-container {
-        font-family: Arial;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        /* width:50% */
-    }
-
-        #card-container #input-container div {
-            display: flex;
-            flex-direction: column;
-            align-items: baseline;
-            margin: 10px;
-        }
-
-            #card-container #input-container div input {
-                margin-top: 5px;
-                margin-left: 40px;
-                margin-bottom: 15px;
-            }
-
-    #card-container:first-child {
-        font-family: Arial;
-        margin-top: 3px;
-    }
-
-    /* #card-container #password-container{
+#input-container {
     display: flex;
-    flex-direction: column;
-} */
-
-    #card-container #password-container {
-        margin-bottom: 10px;
-    }
-
-input, button {
-    font-size: 3vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
 }
 
-p {
+    #input-container div {
+        /* width:100%; */
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        /* justify-content: center; */
+        margin: 10px;
+    }
+
+#card-container:first-child {
+    font-family: Arial;
+    margin-top: 3px;
+}
+
+#card-container #password-container {
+    margin-bottom: 10px;
+}
+
+/* input, button {
+    font-size: 3vh;
+} */
+input, button {
+    /* width:8dvw; */
+    font-size: 2.2vh;
+}
+
+p, a {
     text-align: center;
-    font-size: 1.05dvw;
+    /* font-size: 1.5vw; */
     margin-bottom: 10px;
 }
 
 a {
     text-align: center;
     color: rgb(10, 102, 194);
-    font-size: 1.05dvw;
+    /* font-size: 1.05dvw; */
     margin-left: 3px;
     text-decoration: solid;
     margin-bottom: 10px;
@@ -112,6 +99,13 @@ a {
         color: purple;
     }
 
+#submit-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 button {
     margin-top: 28px;
     background-color: rgb(1, 30, 65);
@@ -123,6 +117,9 @@ button {
     cursor: pointer;
     transition: box-shadow 0.15s, opacity 0.15s;
     margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
     button:hover {

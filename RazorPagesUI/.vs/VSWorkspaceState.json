@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Pages",
-    "\\Pages\\Forms",
-    "\\Pages\\Shared",
-    "\\wwwroot"
+    "\\Pages"
   ],
-  "SelectedNode": "\\Pages\\Shared\\_Layout.cshtml",
+  "SelectedNode": "\\Controllers",
   "PreviewInSolutionExplorer": false
 }

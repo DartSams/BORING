@@ -6,7 +6,7 @@ namespace RazorPagesUI.Pages.Forms
 {
     public class LoginPage : PageModel
     {
-        [BindProperty]
+        [BindProperty] //needed to take data from frontend to backend
         public LoginModel Login { get; set; }
         public void OnGet()
         {
@@ -19,7 +19,7 @@ namespace RazorPagesUI.Pages.Forms
                 return Page();
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("../Index", new { Email = Login.Email,Password = Login.Password}) ; //replace later to send to dashboard the second argument is a object that gets saved locally can be accessed by using @Model.Email or @Model.Password in .cshtml files
         }
     }
 }
