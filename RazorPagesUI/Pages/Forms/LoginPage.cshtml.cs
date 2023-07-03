@@ -12,6 +12,7 @@ namespace RazorPagesUI.Pages.Forms
         {
         }
 
+          
         public IActionResult OnPost()
         {
             if (ModelState.IsValid == false)
@@ -19,7 +20,7 @@ namespace RazorPagesUI.Pages.Forms
                 return Page();
             }
 
-            return RedirectToPage("../Register", new { Email = Login.Email,Password = Login.Password}) ; //replace later to send to dashboard the second argument is a object that gets saved locally can be accessed by using @Model.Email or @Model.Password in .cshtml files
+            return RedirectToPage("./DashboardPage", new { Email = Login.Email,Password = Login.Password}) ; //replace later to send to dashboard the second argument is a object that gets saved locally can be accessed by using @Model.Email or @Model.Password in .cshtml files
         }
     }
 }

@@ -18,7 +18,7 @@ namespace RazorPagesUI.Pages.Forms
                 return Page();
             }
 
-            return RedirectToPage("../Index"); //replace later to send to dashboard the second argument is a object that gets saved locally can be accessed by using @Model.Email or @Model.Password in .cshtml files
+            return RedirectToPage("../Index"); //the second argument is a object that gets saved locally can be accessed by using @Model.Email or @Model.Password in .cshtml files
         }
     }
 }
