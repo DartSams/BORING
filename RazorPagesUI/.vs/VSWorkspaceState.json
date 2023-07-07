@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Pages",
-    "\\Pages\\Forms",
-    "\\Pages\\Shared",
-    "\\wwwroot"
+    "\\Pages"
   ],
   "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false

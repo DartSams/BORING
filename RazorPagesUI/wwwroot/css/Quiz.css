@@ -1,0 +1,106 @@
+﻿* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.quiz-body #logo {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    justify-content: space-between;
+    /* align-items: baseline; */
+    /* position: relative;
+    top:5vh */
+}
+
+    .quiz-body #logo h1 {
+        position: relative;
+        font-size: 20px;
+        top: 5vh;
+        margin-left: 30px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    .quiz-body #logo img {
+        /* background-color: rgb(255, 255, 255); */
+        width: 9vw;
+        height: auto;
+        margin-top: 12px;
+        margin-bottom: 8px;
+        margin-left: 80px;
+    }
+
+.quiz-body #main-container {
+    width: 100vw;
+    height: 87.7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+    /* background: linear-gradient(to top, rgb(163, 170, 174) 50%, rgb(1, 30, 65) 50%) */
+}
+
+    .quiz-body #main-container #block {
+        background-color: rgb(255, 255, 255);
+        width: 40vw;
+        height:fit-content;
+        padding: 65px;
+        /* padding: 155px 65px 40px 65px; */
+        margin: 10px 0 30px 0;
+        border-radius: 15px;
+        box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+    }
+
+    /* #main-container #block{
+    margin:5px;
+} */
+
+    .quiz-body #main-container #header-container {
+        font-family: Arial;
+        color: black;
+        line-height: 20px;
+        margin-bottom: 15%;
+        font-size: 1.30vw;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .quiz-body #main-container #body-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: baseline;
+        margin-bottom: 5%;
+        margin-left: 4%;
+        font-size: 2vw;
+    }
+
+.quiz-body #body-container div {
+    margin: 20px;
+}
+
+.quiz-body #main-container #body-container input {
+    width: 2vw;
+    height: 2vh;
+}
+
+.quiz-body #main-container #footer-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 5vh
+}
+
+    .quiz-body #main-container #footer-container img {
+        /* margin-left: ; */
+        width: 5vw;
+        height: auto;
+    }

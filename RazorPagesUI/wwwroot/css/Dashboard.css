@@ -1,0 +1,190 @@
+﻿* {
+    margin: 0
+}
+
+body {
+    background-color: rgb(211, 210, 210);
+    width: 100dvw;
+    height: 100dvh;
+    overflow-x: hidden
+}
+
+.dashboard-body {
+    display: flex;
+    width: 100dvw;
+    height: 100dvh;
+    flex-direction: column;
+    text-align: center;
+    font-size: small;
+}
+
+    .dashboard-body .button-container {
+        height:7vh;
+        cursor: pointer;
+    }
+
+    .dashboard-body #navbar-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 100%;
+        position: fixed;
+        left: 5px;
+        height: fit-content;
+        background-color: white;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+        z-index: 5;
+    }
+
+        .dashboard-body #navbar-container #personal-settings-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+            .dashboard-body #navbar-container #personal-settings-container p {
+                font-weight: normal;
+                margin: 15px;
+                padding-right: 90px;
+                cursor: pointer;
+            }
+
+    .dashboard-body #logo img {
+        width: 9vw;
+        height: auto;
+        padding-top: 10px;
+        padding-left: 15px;
+        cursor: pointer;
+    }
+
+    .dashboard-body #body-container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .dashboard-body #side {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        left: -13em;
+        top:15vh
+    }
+
+    .dashboard-body #body-container #sidebar-container {
+        width: fit-content;
+        padding: 15px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .dashboard-body #line {
+        width: 40px;
+        height: 10px;
+        background-color: black;
+        margin: 5px
+    }
+
+    .dashboard-body h1 {
+        font-family: Arial;
+        color: black;
+        margin-top: 10px;
+        /* font-size: 20px; */
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    .dashboard-body h2 {
+        font-weight: normal;
+        /* font-size: 20px; */
+        cursor: pointer;
+    }
+
+
+    .dashboard-body #body-container #main-body-container {
+        width: 100%;
+        height: 100%;
+        margin-top: 20dvh;
+    }
+
+        .dashboard-body #body-container #main-body-container #data-blocks {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            /* flex-wrap: wrap; */
+            /* justify-content: space-around; */
+            align-items: center;
+            margin-top: 15px;
+        }
+
+            .dashboard-body #body-container #main-body-container #data-blocks #data-header-blocks {
+                display: flex;
+                width: 100%;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: baseline;
+            }
+
+                .dashboard-body #body-container #main-body-container #data-blocks #data-header-blocks #block {
+                    background-color: white;
+                    width: 15vw;
+                    height: 15vh;
+                    padding: 20px;
+                    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+                    transition: width 0.15s, height 0.15s;
+                    cursor: pointer;
+                }
+
+#data-body-blocks {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+    #data-body-blocks div {
+        margin: 10px;
+    }
+
+.dashboard-body #block {
+    background-color: white;
+    width: 35vw;
+    height: 30vh;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    transition: width 0.15s, height 0.15s;
+    cursor: pointer;
+}
+
+/* .dashboard-body #block:hover{
+    width: 31vw;
+    height: 31vh;
+} */
+
+.dashboard-body .question1-container {
+    width: 100%;
+    height: 100%;
+}
+
+.dashboard-body #start-quiz-button {
+    position: fixed;
+    bottom: 5vh;
+    right: 3vw;
+}
+
+.dashboard-body #start-quiz-button button{
+    border:none;
+    border-radius:10px;
+    padding:10px;
+    font-size:large
+}

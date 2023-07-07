@@ -3,34 +3,48 @@
 @{
 }
 
-<div id="main-container">
+<div id="main-container" class="register-body">
     <div id="card-container">
         <h1>Register</h1>
-        <form>
+        <form action="" method="post">
             <div id="input-container">
                 <div>
                     <label for="contact person">Contact Person</label>
-                    <input type="text" placeholder="Contact">
+                    <input type="text" placeholder="Contact" asp-for="Register.ContactPerson">
                 </div>
                 <div id="email-container">
                     <label for="email">Email</label>
-                    <input type="email" placeholder="Email">
+                    <input type="email" placeholder="Email" asp-for="Register.Email">
+                </div>
+                <div id="password-container">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Password" asp-for="Register.Password">
                 </div>
                 <div>
                     <label for="address">Address</label>
-                    <input type="text" placeholder="Address">
+                    <input type="text" placeholder="Address" asp-for="Register.Address">
                 </div>
-                <div id="password-container">
-                    <label for="password">School Phone</label>
-                    <input type="password" placeholder="phone number">
+                <div id="zipcode-container">
+                    <label for="zipcode">Zipcode</label>
+                    <input type="text" placeholder="Zipcode" asp-for="Register.Zipcode">
+                </div>
+                <div id="City-container">
+                    <label for="city">City</label>
+                    <input type="text" placeholder="City" asp-for="Register.City">
+                </div>
+                <div id="State-container">
+                    <label for="state">State</label>
+                    <input type="text" placeholder="State" asp-for="Register.State">
                 </div>
             </div>
             <div id="remember-container">
             </div>
-            <button>Register</button>
+            <div id="submit-container">
+                <button>Register</button>
+            </div>
             <div id="seperator"></div>
 
-            <p>Already have an account? <a href="">Sign In</a></p>
+            <p>Already have an account? <a href="LoginPage">Sign In</a></p>
         </form>
     </div>
 </div>

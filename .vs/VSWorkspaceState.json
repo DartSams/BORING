@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RazorPagesUI",
+    "\\RazorPagesUI\\wwwroot",
+    "\\RazorPagesUI\\wwwroot\\css"
   ],
-  "SelectedNode": "\\RazorPagesUI.sln",
+  "SelectedNode": "\\RazorPagesUI\\wwwroot\\css\\Quiz.css",
   "PreviewInSolutionExplorer": false
 }
