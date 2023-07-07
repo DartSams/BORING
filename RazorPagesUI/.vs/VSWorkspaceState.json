@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Pages"
+    "\\Pages",
+    "\\Pages\\Forms",
+    "\\Pages\\Shared",
+    "\\wwwroot"
   ],
-  "SelectedNode": "\\Controllers",
+  "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

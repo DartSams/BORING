@@ -55,3 +55,14 @@ C:\Users\Maya\Downloads\BORING\RazorPagesUI\obj\Debug\net6.0\refint\RazorPagesUI
 C:\Users\Maya\Downloads\BORING\RazorPagesUI\obj\Debug\net6.0\RazorPagesUI.pdb
 C:\Users\Maya\Downloads\BORING\RazorPagesUI\obj\Debug\net6.0\RazorPagesUI.genruntimeconfig.cache
 C:\Users\Maya\Downloads\BORING\RazorPagesUI\obj\Debug\net6.0\ref\RazorPagesUI.dll
+C:\Users\godof\Desktop\VSCodeProjects\Teacher Assistant\bozo project\BORING\RazorPagesUI\obj\Debug\net6.0\RazorPagesUI.csproj.AssemblyReference.cache
+C:\Users\godof\Desktop\VSCodeProjects\Teacher Assistant\bozo project\BORING\RazorPagesUI\obj\Debug\net6.0\RazorPagesUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\godof\Desktop\VSCodeProjects\Teacher Assistant\bozo project\BORING\RazorPagesUI\obj\Debug\net6.0\RazorPagesUI.AssemblyInfoInputs.cache
+C:\Users\godof\Desktop\VSCodeProjects\Teacher Assistant\bozo project\BORING\RazorPagesUI\obj\Debug\net6.0\RazorPagesUI.AssemblyInfo.cs
+C:\Users\godof\Desktop\VSCodeProjects\Teacher Assistant\bozo project\BORING\RazorPagesUI\obj\Debug\net6.0\RazorPagesUI.csproj.CoreCompileInputs.cache
+C:\Users\godof\Desktop\VSCodeProjects\Teacher Assistant\bozo project\BORING\RazorPagesUI\obj\Debug\net6.0\RazorPagesUI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\godof\Desktop\VSCodeProjects\Teacher Assistant\bozo project\BORING\RazorPagesUI\obj\Debug\net6.0\RazorPagesUI.RazorAssemblyInfo.cache
+C:\Users\godof\Desktop\VSCodeProjects\Teacher Assistant\bozo project\BORING\RazorPagesUI\obj\Debug\net6.0\RazorPagesUI.RazorAssemblyInfo.cs
+C:\Users\godof\Desktop\VSCodeProjects\Teacher Assistant\bozo project\BORING\RazorPagesUI\obj\Debug\net6.0\RazorPagesUI.dll
+C:\Users\godof\Desktop\VSCodeProjects\Teacher Assistant\bozo project\BORING\RazorPagesUI\obj\Debug\net6.0\refint\RazorPagesUI.dll
+C:\Users\godof\Desktop\VSCodeProjects\Teacher Assistant\bozo project\BORING\RazorPagesUI\obj\Debug\net6.0\RazorPagesUI.pdb
