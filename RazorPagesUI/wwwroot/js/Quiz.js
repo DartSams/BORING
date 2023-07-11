@@ -147,6 +147,8 @@ QUESTIONS = [
 ]
 
 let currentQuestion = 0
+updateQuestion()
+
 function updateQuestion() {
     document.querySelector(".question").innerText = QUESTIONS[currentQuestion].question
     generateChoices(QUESTIONS[currentQuestion].labels)
@@ -163,6 +165,7 @@ function generateChoices(choices) {
         let input = document.createElement("input");
         input.name = "choice"
         input.type = "radio"
+        input.value = choices[i]
 
         let label = document.createElement("label");
         label.innerText = choices[i]
@@ -174,10 +177,34 @@ function generateChoices(choices) {
 }
 
 document.querySelector(".next-button").addEventListener("click", function () {
-    if (currentQuestion <= QUESTIONS.length)
-    currentQuestion++;
-    console.log(currentQuestion)
-    updateQuestion()
+    if (currentQuestion <= QUESTIONS.length) { 
+        //get the selected answer
+        // if radio button answer is Yes then skip logic
+
+        let getSelectedValue = document.querySelector('input[name="choice"]:checked'); //gets all the input elements and finds the one that is checked
+        QUESTIONS[currentQuestion].answer = getSelectedValue.value //sets the answer to the dictionary of questions
+
+        if (QUESTIONS[0].answer == "No") {
+            for (let i = 0; i < QUESTIONS.length; i++) {
+                QUESTIONS = [];
+            }
+        } else if (QUESTIONS[0].answer == "Maybe") {
+            QUESTIONS = QUESTIONS.slice(3)
+
+        }
+        console.log(QUESTIONS)
+        if (QUESTIONS.length != 0 || currentQuestion != QUESTIONS.length) {
+            currentQuestion++;
+            console.log(currentQuestion)
+            updateQuestion()
+        } else {
+            let choiceBody = document.querySelector(".question-choices")
+            choiceBody.innerHTML = ""
+            let footerContainer = document.querySelector("#footer-container")
+            footerContainer.innerHTML = ""
+            document.querySelector(".question").innerText = "You have reached the end of the survey."
+        } //code to display you have reached the end of the survey
+    }
 }) //updates the current question displayed
 
 document.querySelector(".back-button").addEventListener("click", function () {
@@ -187,3 +214,8 @@ document.querySelector(".back-button").addEventListener("click", function () {
         updateQuestion()
     }
 }) //updates the current question displayed
+
+function removeQuestion(questionNum) {
+
+    QUESTIONS = QUESTIONS.slice(questionNum)
+}

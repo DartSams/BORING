@@ -13,6 +13,7 @@ body .login-body {
 }
 
 .login-body input {
+    font-size: 19px;
     color: rgb(158, 158, 158);
     /* font-size: 1.35vw; */
     padding-left: 10px;
@@ -47,6 +48,7 @@ body .login-body {
     }
 
 .login-body button {
+    font-size: 22px;
     background-color: rgb(1, 30, 65);
     color: white;
     font-weight: bold;
@@ -79,7 +81,7 @@ body .login-body {
     .login-body #block {
         background-color: rgb(255, 255, 255);
         padding: 10px 15px 10px 15px;
-        margin: 150px 0 20px 0;
+        margin: 20px 0 20px 0;
         border-radius: 15px;
         box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15);
         display: flex;
@@ -111,6 +113,7 @@ body .login-body {
         }
 
     .login-body #footer-container {
+        margin-top: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -130,6 +133,7 @@ body .login-body {
     }
 
         .login-body #create-account p {
+            font-size: 17px;
             color: rgb(0, 0, 0);
             font-family: Arial;
             margin-top: 35px;
@@ -139,6 +143,7 @@ body .login-body {
         }
 
         .login-body #create-account a {
+            font-size: 17px;
             font-family: Arial;
             font-weight: bold;
             margin-top: 35px;

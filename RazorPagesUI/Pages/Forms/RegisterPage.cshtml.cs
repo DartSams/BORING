@@ -20,7 +20,7 @@ namespace RazorPagesUI.Pages.Forms
                 return Page();
             }
 
-            return RedirectToPage("./DashboardPage", new { Contact = Register.ContactPerson, Email = Register.Email,Password = Register.Password, Address = Register.Address, Zipcode = Register.Zipcode, City = Register.City, State = Register.State,  });
+            return RedirectToPage("./DashboardPage", new { Contact = Register.ContactPerson, Email = Register.Email,Password = Register.Password, confirmationPassword = Register.confirmationPassword, Address = Register.Address, Zipcode = Register.Zipcode, City = Register.City, State = Register.State,  });
         }
     }
 }
