@@ -1,0 +1,31 @@
+ITEMS THAT HAVE BEEN DONE
+- I fixed the conflicting css files. I had multiple so the css code in all the files were conflicting with the other files
+
+- I added the dashboard page to the project so after logging in it will redirect you to the dashboard.
+
+- make js function for dashboard page to move the sidebar the left (close) or to the right(open)
+	- by using the DOM to edit the left query
+
+ - started on dashboard customization
+	- added top 3 blocks for current quiz data (number of participants,...,...)
+	- will create button to start quiz
+
+ - each block on dashboard will hold a bar chart for each question 
+	- yes and no labels
+	- date ranges
+	- ...
+
+NEED TO GET DONE
+ - data can be taken from frontend to the backend daniel needs to save to database 
+	- in the forms folder the login and register .cshtml.cs files are able to recieve data from frontend to the backend in here daniel 		needs to place function to save the local data recieved from the frontend to the database
+	- when registering search in database for email entered if a email for that is found do not let user register return error "Email in 		use"
+ - when saving data to database passwords need to be hashed (safely secured) and saved hashed version to database
+ - once database is populated need to add methods for authentication
+	- on Login page
+		- quickly search database for email
+		- then compare password recieved from frontend to password in database
+		- if email found but password incorrect return error "Password incorrect"
+
+- need function to retrieve data from database to send to frontend
+- once data for questions are placed, can update charts on dashboard
+
