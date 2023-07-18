@@ -12,25 +12,19 @@ body {
 .dashboard-body {
     display: flex;
     width: 100dvw;
-    height: 100dvh;
+    height: fit-content;
     flex-direction: column;
     text-align: center;
     font-size: small;
 }
 
-    .dashboard-body .button-container {
-        height:7vh;
-        cursor: pointer;
-    }
 
     .dashboard-body #navbar-container {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         align-items: baseline;
         width: 100%;
         position: fixed;
-        left: 5px;
         height: fit-content;
         background-color: white;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
@@ -40,29 +34,42 @@ body {
         .dashboard-body #navbar-container #personal-settings-container {
             display: flex;
             flex-direction: row;
+            justify-content:center;
+            align-content:center;
+            text-align:center;
         }
 
             .dashboard-body #navbar-container #personal-settings-container p {
-                font-weight: normal;
-                margin: 15px;
-                padding-right: 90px;
+                font-weight: bold;
+                margin-left: 70px;
+                padding: 16px 90px 05px 90px;
                 cursor: pointer;
+                border: 1px solid;
+                border:none;
+                border-radius: 2px;
+                border-bottom: none;
+                width: fit-content;
+                color: rgb(90, 90, 90);
+                background-color: rgb(240,240,240);
+                color:black;
             }
 
-    .dashboard-body #logo img {
-        width: 9vw;
-        height: auto;
-        padding-top: 10px;
-        padding-left: 15px;
-        cursor: pointer;
-    }
+
+                .dashboard-body #logo img {
+                    width: 8vw;
+                    height: auto;
+                    padding-top: 10px;
+                    padding-left: 35px;
+                    cursor: pointer;
+                }
 
     .dashboard-body #body-container {
         width: 100%;
-        height: 100vh;
+        height: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        background-color: rgb(240,240,240);
     }
 
     .dashboard-body #side {
@@ -70,18 +77,23 @@ body {
         display: flex;
         flex-direction: row;
         position: fixed;
-        left: -13em;
-        top:15vh
+        top: 7em
     }
 
     .dashboard-body #body-container #sidebar-container {
         width: fit-content;
-        padding: 15px;
+        padding: 10px;
         background-color: white;
         display: flex;
         flex-direction: column;
         align-items: center;
         box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    #side-test-block{
+        width:70px;
+        height:15px;
+        background-color:black;
     }
 
     .dashboard-body #line {
@@ -158,7 +170,7 @@ body {
 
 .dashboard-body #block {
     background-color: white;
-    width: 35vw;
+    width: 25vw;
     height: 30vh;
     padding: 20px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
